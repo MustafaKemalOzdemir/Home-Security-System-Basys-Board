@@ -1,0 +1,3 @@
+NumberHits:13
+Timestamp: Sun Dec 23 16:34:57 UTC 2018
+VLNV: xilinx.com:XUP:xup_dff:1.0

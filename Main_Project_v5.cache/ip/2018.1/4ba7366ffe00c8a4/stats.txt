@@ -1,0 +1,3 @@
+NumberHits:1
+Timestamp: Sun Dec 23 16:35:21 UTC 2018
+VLNV: xilinx.com:XUP:xup_2_to_1_mux:1.0

@@ -1,0 +1,677 @@
+
+*** Running vivado
+    with args -log MainDesign_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MainDesign_wrapper.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MainDesign_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/Vivado/2018.1/data/boards/board_parts/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+Command: synth_design -top MainDesign_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15064 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 394.551 ; gain = 102.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MainDesign_wrapper' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/hdl/MainDesign_wrapper.vhd:37]
+INFO: [Synth 8-3491] module 'MainDesign' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:14' bound to instance 'MainDesign_i' of component 'MainDesign' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/hdl/MainDesign_wrapper.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'MainDesign' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:41]
+INFO: [Synth 8-3491] module 'MainDesign_seg7display_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_seg7display_0_1_stub.vhdl:5' bound to instance 'seg7display_0' of component 'MainDesign_seg7display_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:562]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_seg7display_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_seg7display_0_1_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'MainDesign_xlconcat_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconcat_0_0_stub.vhdl:5' bound to instance 'xlconcat_0' of component 'MainDesign_xlconcat_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:571]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xlconcat_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconcat_0_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'MainDesign_xlconstant_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_0_0_stub.vhdl:5' bound to instance 'xlconstant_0' of component 'MainDesign_xlconstant_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:591]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xlconstant_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_0_0_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'MainDesign_xlconstant_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_0_1_stub.vhdl:5' bound to instance 'xlconstant_1' of component 'MainDesign_xlconstant_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:595]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xlconstant_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_0_1_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'MainDesign_xlconstant_2_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_2_0_stub.vhdl:5' bound to instance 'xlconstant_2' of component 'MainDesign_xlconstant_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:599]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xlconstant_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_2_0_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'MainDesign_xlconstant_2_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_2_1_stub.vhdl:5' bound to instance 'xlconstant_3' of component 'MainDesign_xlconstant_2_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:603]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xlconstant_2_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xlconstant_2_1_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'MainDesign_xup_2_to_1_mux_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_2_to_1_mux_0_0_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_0' of component 'MainDesign_xup_2_to_1_mux_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:607]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_2_to_1_mux_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_2_to_1_mux_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_2_to_1_mux_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_2_to_1_mux_0_1_stub.vhdl:5' bound to instance 'xup_2_to_1_mux_1' of component 'MainDesign_xup_2_to_1_mux_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:614]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_2_to_1_mux_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_2_to_1_mux_0_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_0_stub.vhdl:5' bound to instance 'xup_and2_0' of component 'MainDesign_xup_and2_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:621]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_1_stub.vhdl:5' bound to instance 'xup_and2_1' of component 'MainDesign_xup_and2_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:627]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_10_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_10_0_stub.vhdl:5' bound to instance 'xup_and2_10' of component 'MainDesign_xup_and2_10_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:633]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_10_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_10_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_11_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_11_0_stub.vhdl:5' bound to instance 'xup_and2_11' of component 'MainDesign_xup_and2_11_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:639]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_11_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_11_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_0_2' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_2_stub.vhdl:5' bound to instance 'xup_and2_2' of component 'MainDesign_xup_and2_0_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:645]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_0_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_2_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_0_3' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_3_stub.vhdl:5' bound to instance 'xup_and2_3' of component 'MainDesign_xup_and2_0_3' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:651]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_0_3' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_0_3_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_2_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_2_0_stub.vhdl:5' bound to instance 'xup_and2_4' of component 'MainDesign_xup_and2_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:657]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_2_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_3_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_3_0_stub.vhdl:5' bound to instance 'xup_and2_5' of component 'MainDesign_xup_and2_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:663]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_3_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_2_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_2_1_stub.vhdl:5' bound to instance 'xup_and2_6' of component 'MainDesign_xup_and2_2_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:669]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_2_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_2_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_1_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_1_0_stub.vhdl:5' bound to instance 'xup_and2_7' of component 'MainDesign_xup_and2_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:675]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_1_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_8_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_8_0_stub.vhdl:5' bound to instance 'xup_and2_8' of component 'MainDesign_xup_and2_8_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:681]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_8_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_8_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and2_8_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_8_1_stub.vhdl:5' bound to instance 'xup_and2_9' of component 'MainDesign_xup_and2_8_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:687]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and2_8_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and2_8_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and3_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_0_0_stub.vhdl:5' bound to instance 'xup_and3_0' of component 'MainDesign_xup_and3_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:693]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and3_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and3_1_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_1_0_stub.vhdl:5' bound to instance 'xup_and3_1' of component 'MainDesign_xup_and3_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:700]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and3_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and3_1_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_1_1_stub.vhdl:5' bound to instance 'xup_and3_2' of component 'MainDesign_xup_and3_1_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:707]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and3_1_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_1_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and3_3_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_3_0_stub.vhdl:5' bound to instance 'xup_and3_3' of component 'MainDesign_xup_and3_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:714]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and3_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_3_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and3_3_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_3_1_stub.vhdl:5' bound to instance 'xup_and3_4' of component 'MainDesign_xup_and3_3_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:721]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and3_3_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_3_1_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and3_4_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_4_0_stub.vhdl:5' bound to instance 'xup_and3_5' of component 'MainDesign_xup_and3_4_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:728]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and3_4_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and3_4_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'MainDesign_xup_and5_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and5_0_0_stub.vhdl:5' bound to instance 'xup_and5_0' of component 'MainDesign_xup_and5_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:735]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_and5_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_and5_0_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'MainDesign_xup_clk_divider_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_clk_divider_0_0_stub.vhdl:5' bound to instance 'xup_clk_divider_0' of component 'MainDesign_xup_clk_divider_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:744]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_clk_divider_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_clk_divider_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_clk_divider_1_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_clk_divider_1_0_stub.vhdl:5' bound to instance 'xup_clk_divider_1' of component 'MainDesign_xup_clk_divider_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:749]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_clk_divider_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_clk_divider_1_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_0_stub.vhdl:5' bound to instance 'xup_dff_0' of component 'MainDesign_xup_dff_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:754]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_1_stub.vhdl:5' bound to instance 'xup_dff_1' of component 'MainDesign_xup_dff_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:760]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_5_5' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_5_stub.vhdl:5' bound to instance 'xup_dff_10' of component 'MainDesign_xup_dff_5_5' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:766]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_5_5' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_5_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_10_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_10_0_stub.vhdl:5' bound to instance 'xup_dff_11' of component 'MainDesign_xup_dff_10_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:772]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_10_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_10_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_10_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_10_1_stub.vhdl:5' bound to instance 'xup_dff_12' of component 'MainDesign_xup_dff_10_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:778]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_10_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_10_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_10_2' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_10_2_stub.vhdl:5' bound to instance 'xup_dff_13' of component 'MainDesign_xup_dff_10_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:784]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_10_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_10_2_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_0_2' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_2_stub.vhdl:5' bound to instance 'xup_dff_2' of component 'MainDesign_xup_dff_0_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:790]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_0_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_2_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_0_3' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_3_stub.vhdl:5' bound to instance 'xup_dff_3' of component 'MainDesign_xup_dff_0_3' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:796]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_0_3' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_3_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_0_4' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_4_stub.vhdl:5' bound to instance 'xup_dff_4' of component 'MainDesign_xup_dff_0_4' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:802]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_0_4' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_0_4_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_5_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_0_stub.vhdl:5' bound to instance 'xup_dff_5' of component 'MainDesign_xup_dff_5_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:808]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_5_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_5_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_1_stub.vhdl:5' bound to instance 'xup_dff_6' of component 'MainDesign_xup_dff_5_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:814]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_5_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_5_2' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_2_stub.vhdl:5' bound to instance 'xup_dff_7' of component 'MainDesign_xup_dff_5_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:820]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_5_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_2_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_5_3' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_3_stub.vhdl:5' bound to instance 'xup_dff_8' of component 'MainDesign_xup_dff_5_3' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:826]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_5_3' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_3_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_dff_5_4' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_4_stub.vhdl:5' bound to instance 'xup_dff_9' of component 'MainDesign_xup_dff_5_4' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:832]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_dff_5_4' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_dff_5_4_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_0_0_stub.vhdl:5' bound to instance 'xup_inv_0' of component 'MainDesign_xup_inv_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:838]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_0_1_stub.vhdl:5' bound to instance 'xup_inv_1' of component 'MainDesign_xup_inv_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:843]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_0_1_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_0_2' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_0_2_stub.vhdl:5' bound to instance 'xup_inv_2' of component 'MainDesign_xup_inv_0_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:848]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_0_2' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_0_2_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_2_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_2_0_stub.vhdl:5' bound to instance 'xup_inv_3' of component 'MainDesign_xup_inv_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:853]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_2_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_3_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_3_0_stub.vhdl:5' bound to instance 'xup_inv_4' of component 'MainDesign_xup_inv_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:858]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_3_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_4_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_4_0_stub.vhdl:5' bound to instance 'xup_inv_5' of component 'MainDesign_xup_inv_4_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:863]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_4_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_4_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_inv_4_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_4_1_stub.vhdl:5' bound to instance 'xup_inv_6' of component 'MainDesign_xup_inv_4_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:868]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_inv_4_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_inv_4_1_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_0_0_stub.vhdl:5' bound to instance 'xup_or2_0' of component 'MainDesign_xup_or2_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:873]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_0_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_0_1_stub.vhdl:5' bound to instance 'xup_or2_1' of component 'MainDesign_xup_or2_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:879]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_0_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_0_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_1_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_1_0_stub.vhdl:5' bound to instance 'xup_or2_2' of component 'MainDesign_xup_or2_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:885]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_1_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_1_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_2_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_2_0_stub.vhdl:5' bound to instance 'xup_or2_3' of component 'MainDesign_xup_or2_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:891]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_2_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_2_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_3_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_3_0_stub.vhdl:5' bound to instance 'xup_or2_4' of component 'MainDesign_xup_or2_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:897]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_3_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_3_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_3_1' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_3_1_stub.vhdl:5' bound to instance 'xup_or2_5' of component 'MainDesign_xup_or2_3_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:903]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_3_1' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_3_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_6_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_6_0_stub.vhdl:5' bound to instance 'xup_or2_6' of component 'MainDesign_xup_or2_6_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:909]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_6_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_6_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or2_5_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_5_0_stub.vhdl:5' bound to instance 'xup_or2_7' of component 'MainDesign_xup_or2_5_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:915]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or2_5_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or2_5_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'MainDesign_xup_or5_0_0' declared at 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or5_0_0_stub.vhdl:5' bound to instance 'xup_or5_0' of component 'MainDesign_xup_or5_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:921]
+INFO: [Synth 8-638] synthesizing module 'MainDesign_xup_or5_0_0' [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/.Xil/Vivado-14100-ADMINRG-25AE4SR/realtime/MainDesign_xup_or5_0_0_stub.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'MainDesign' (1#1) [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/synth/MainDesign.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'MainDesign_wrapper' (2#1) [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/hdl/MainDesign_wrapper.vhd:37]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 450.406 ; gain = 158.594
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 450.406 ; gain = 158.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 450.406 ; gain = 158.594
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_0/MainDesign_xup_dff_0_0/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_0/MainDesign_xup_dff_0_0/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_1/MainDesign_xup_dff_0_1/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_1/MainDesign_xup_dff_0_1/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_2/MainDesign_xup_dff_0_2/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_2'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_2/MainDesign_xup_dff_0_2/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_2'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_3/MainDesign_xup_dff_0_3/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_3'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_3/MainDesign_xup_dff_0_3/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_3'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_4/MainDesign_xup_dff_0_4/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_4'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_0_4/MainDesign_xup_dff_0_4/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_4'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or5_0_0/MainDesign_xup_or5_0_0/MainDesign_xup_or5_0_0_in_context.xdc] for cell 'MainDesign_i/xup_or5_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or5_0_0/MainDesign_xup_or5_0_0/MainDesign_xup_or5_0_0_in_context.xdc] for cell 'MainDesign_i/xup_or5_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_0_0/MainDesign_xup_or2_0_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_0_0/MainDesign_xup_or2_0_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_0_0/MainDesign_xup_inv_0_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_0_0/MainDesign_xup_inv_0_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_0_1/MainDesign_xup_inv_0_1/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_0_1/MainDesign_xup_inv_0_1/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_0_2/MainDesign_xup_inv_0_2/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_2'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_0_2/MainDesign_xup_inv_0_2/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_2'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_0_0/MainDesign_xup_and3_0_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_0_0/MainDesign_xup_and3_0_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_0/MainDesign_xup_and2_0_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_0/MainDesign_xup_and2_0_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_1/MainDesign_xup_and2_0_1/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_1/MainDesign_xup_and2_0_1/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_0_1/MainDesign_xup_or2_0_1/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_0_1/MainDesign_xup_or2_0_1/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_2_0/MainDesign_xup_inv_2_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_3'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_2_0/MainDesign_xup_inv_2_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_3'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_2/MainDesign_xup_and2_0_2/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_2'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_2/MainDesign_xup_and2_0_2/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_2'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_3/MainDesign_xup_and2_0_3/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_3'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_0_3/MainDesign_xup_and2_0_3/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_3'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_3_0/MainDesign_xup_inv_3_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_4'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_3_0/MainDesign_xup_inv_3_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_4'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_2_0/MainDesign_xup_and2_2_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_4'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_2_0/MainDesign_xup_and2_2_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_4'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_1_0/MainDesign_xup_or2_1_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_2'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_1_0/MainDesign_xup_or2_1_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_2'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_3_0/MainDesign_xup_and2_3_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_5'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_3_0/MainDesign_xup_and2_3_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_5'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_1_0/MainDesign_xup_and3_1_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_1_0/MainDesign_xup_and3_1_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_1_1/MainDesign_xup_and3_1_1/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_2'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_1_1/MainDesign_xup_and3_1_1/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_2'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_2_0/MainDesign_xup_or2_2_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_3'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_2_0/MainDesign_xup_or2_2_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_3'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_2_1/MainDesign_xup_and2_2_1/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_6'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_2_1/MainDesign_xup_and2_2_1/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_6'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_1_0/MainDesign_xup_and2_1_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_7'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_1_0/MainDesign_xup_and2_1_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_7'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_3_0/MainDesign_xup_or2_3_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_4'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_3_0/MainDesign_xup_or2_3_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_4'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_4_0/MainDesign_xup_inv_4_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_5'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_4_0/MainDesign_xup_inv_4_0/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_5'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_4_1/MainDesign_xup_inv_4_1/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_6'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_inv_4_1/MainDesign_xup_inv_4_1/MainDesign_xup_inv_0_0_in_context.xdc] for cell 'MainDesign_i/xup_inv_6'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and5_0_0/MainDesign_xup_and5_0_0/MainDesign_xup_and5_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and5_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and5_0_0/MainDesign_xup_and5_0_0/MainDesign_xup_and5_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and5_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_8_0/MainDesign_xup_and2_8_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_8'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_8_0/MainDesign_xup_and2_8_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_8'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_3_1/MainDesign_xup_or2_3_1/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_5'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_3_1/MainDesign_xup_or2_3_1/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_5'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_6_0/MainDesign_xup_or2_6_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_6'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_6_0/MainDesign_xup_or2_6_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_6'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_8_1/MainDesign_xup_and2_8_1/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_9'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_8_1/MainDesign_xup_and2_8_1/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_9'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_10_0/MainDesign_xup_and2_10_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_10'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_10_0/MainDesign_xup_and2_10_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_10'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_11_0/MainDesign_xup_and2_11_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_11'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and2_11_0/MainDesign_xup_and2_11_0/MainDesign_xup_and2_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and2_11'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_5_0/MainDesign_xup_or2_5_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_7'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_or2_5_0/MainDesign_xup_or2_5_0/MainDesign_xup_or2_2_0_in_context.xdc] for cell 'MainDesign_i/xup_or2_7'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_clk_divider_0_0/MainDesign_xup_clk_divider_0_0/MainDesign_xup_clk_divider_0_0_in_context.xdc] for cell 'MainDesign_i/xup_clk_divider_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_clk_divider_0_0/MainDesign_xup_clk_divider_0_0/MainDesign_xup_clk_divider_0_0_in_context.xdc] for cell 'MainDesign_i/xup_clk_divider_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_0/MainDesign_xup_dff_5_0/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_5'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_0/MainDesign_xup_dff_5_0/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_5'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_1/MainDesign_xup_dff_5_1/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_6'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_1/MainDesign_xup_dff_5_1/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_6'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_2/MainDesign_xup_dff_5_2/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_7'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_2/MainDesign_xup_dff_5_2/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_7'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_3_0/MainDesign_xup_and3_3_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_3'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_3_0/MainDesign_xup_and3_3_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_3'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_clk_divider_1_0/MainDesign_xup_clk_divider_1_0/MainDesign_xup_clk_divider_1_0_in_context.xdc] for cell 'MainDesign_i/xup_clk_divider_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_clk_divider_1_0/MainDesign_xup_clk_divider_1_0/MainDesign_xup_clk_divider_1_0_in_context.xdc] for cell 'MainDesign_i/xup_clk_divider_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_3/MainDesign_xup_dff_5_3/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_8'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_3/MainDesign_xup_dff_5_3/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_8'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_4/MainDesign_xup_dff_5_4/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_9'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_4/MainDesign_xup_dff_5_4/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_9'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_5/MainDesign_xup_dff_5_5/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_10'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_5_5/MainDesign_xup_dff_5_5/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_10'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_3_1/MainDesign_xup_and3_3_1/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_4'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_3_1/MainDesign_xup_and3_3_1/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_4'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_10_0/MainDesign_xup_dff_10_0/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_11'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_10_0/MainDesign_xup_dff_10_0/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_11'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_10_1/MainDesign_xup_dff_10_1/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_12'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_10_1/MainDesign_xup_dff_10_1/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_12'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_10_2/MainDesign_xup_dff_10_2/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_13'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_dff_10_2/MainDesign_xup_dff_10_2/MainDesign_xup_dff_0_0_in_context.xdc] for cell 'MainDesign_i/xup_dff_13'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_4_0/MainDesign_xup_and3_4_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_5'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_and3_4_0/MainDesign_xup_and3_4_0/MainDesign_xup_and3_0_0_in_context.xdc] for cell 'MainDesign_i/xup_and3_5'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_2_to_1_mux_0_0/MainDesign_xup_2_to_1_mux_0_0/MainDesign_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'MainDesign_i/xup_2_to_1_mux_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_2_to_1_mux_0_0/MainDesign_xup_2_to_1_mux_0_0/MainDesign_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'MainDesign_i/xup_2_to_1_mux_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_2_to_1_mux_0_1/MainDesign_xup_2_to_1_mux_0_1/MainDesign_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'MainDesign_i/xup_2_to_1_mux_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xup_2_to_1_mux_0_1/MainDesign_xup_2_to_1_mux_0_1/MainDesign_xup_2_to_1_mux_0_0_in_context.xdc] for cell 'MainDesign_i/xup_2_to_1_mux_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_0_0/MainDesign_xlconstant_0_0/MainDesign_xlconstant_0_0_in_context.xdc] for cell 'MainDesign_i/xlconstant_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_0_0/MainDesign_xlconstant_0_0/MainDesign_xlconstant_0_0_in_context.xdc] for cell 'MainDesign_i/xlconstant_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_0_1/MainDesign_xlconstant_0_1/MainDesign_xlconstant_0_1_in_context.xdc] for cell 'MainDesign_i/xlconstant_1'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_0_1/MainDesign_xlconstant_0_1/MainDesign_xlconstant_0_1_in_context.xdc] for cell 'MainDesign_i/xlconstant_1'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_seg7display_0_1/MainDesign_seg7display_0_1/MainDesign_seg7display_0_1_in_context.xdc] for cell 'MainDesign_i/seg7display_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_seg7display_0_1/MainDesign_seg7display_0_1/MainDesign_seg7display_0_1_in_context.xdc] for cell 'MainDesign_i/seg7display_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconcat_0_0/MainDesign_xlconcat_0_0/MainDesign_xlconcat_0_0_in_context.xdc] for cell 'MainDesign_i/xlconcat_0'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconcat_0_0/MainDesign_xlconcat_0_0/MainDesign_xlconcat_0_0_in_context.xdc] for cell 'MainDesign_i/xlconcat_0'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_2_0/MainDesign_xlconstant_2_0/MainDesign_xlconstant_0_1_in_context.xdc] for cell 'MainDesign_i/xlconstant_2'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_2_0/MainDesign_xlconstant_2_0/MainDesign_xlconstant_0_1_in_context.xdc] for cell 'MainDesign_i/xlconstant_2'
+Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_2_1/MainDesign_xlconstant_2_1/MainDesign_xlconstant_0_0_in_context.xdc] for cell 'MainDesign_i/xlconstant_3'
+Finished Parsing XDC File [c:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.srcs/sources_1/bd/MainDesign/ip/MainDesign_xlconstant_2_1/MainDesign_xlconstant_2_1/MainDesign_xlconstant_0_0_in_context.xdc] for cell 'MainDesign_i/xlconstant_3'
+Parsing XDC File [C:/Users/M/Desktop/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/M/Desktop/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/M/Desktop/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MainDesign_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MainDesign_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 767.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for MainDesign_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or5_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and3_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and3_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_inv_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and5_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and2_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_or2_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_clk_divider_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and3_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_clk_divider_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and3_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_dff_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_and3_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_2_to_1_mux_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xup_2_to_1_mux_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/seg7display_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xlconstant_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for MainDesign_i/xlconstant_3. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------+----------+
+|      |BlackBox name                  |Instances |
++------+-------------------------------+----------+
+|1     |MainDesign_seg7display_0_1     |         1|
+|2     |MainDesign_xlconcat_0_0        |         1|
+|3     |MainDesign_xlconstant_0_0      |         1|
+|4     |MainDesign_xlconstant_0_1      |         1|
+|5     |MainDesign_xlconstant_2_0      |         1|
+|6     |MainDesign_xlconstant_2_1      |         1|
+|7     |MainDesign_xup_2_to_1_mux_0_0  |         1|
+|8     |MainDesign_xup_2_to_1_mux_0_1  |         1|
+|9     |MainDesign_xup_and2_0_0        |         1|
+|10    |MainDesign_xup_and2_0_1        |         1|
+|11    |MainDesign_xup_and2_10_0       |         1|
+|12    |MainDesign_xup_and2_11_0       |         1|
+|13    |MainDesign_xup_and2_0_2        |         1|
+|14    |MainDesign_xup_and2_0_3        |         1|
+|15    |MainDesign_xup_and2_2_0        |         1|
+|16    |MainDesign_xup_and2_3_0        |         1|
+|17    |MainDesign_xup_and2_2_1        |         1|
+|18    |MainDesign_xup_and2_1_0        |         1|
+|19    |MainDesign_xup_and2_8_0        |         1|
+|20    |MainDesign_xup_and2_8_1        |         1|
+|21    |MainDesign_xup_and3_0_0        |         1|
+|22    |MainDesign_xup_and3_1_0        |         1|
+|23    |MainDesign_xup_and3_1_1        |         1|
+|24    |MainDesign_xup_and3_3_0        |         1|
+|25    |MainDesign_xup_and3_3_1        |         1|
+|26    |MainDesign_xup_and3_4_0        |         1|
+|27    |MainDesign_xup_and5_0_0        |         1|
+|28    |MainDesign_xup_clk_divider_0_0 |         1|
+|29    |MainDesign_xup_clk_divider_1_0 |         1|
+|30    |MainDesign_xup_dff_0_0         |         1|
+|31    |MainDesign_xup_dff_0_1         |         1|
+|32    |MainDesign_xup_dff_5_5         |         1|
+|33    |MainDesign_xup_dff_10_0        |         1|
+|34    |MainDesign_xup_dff_10_1        |         1|
+|35    |MainDesign_xup_dff_10_2        |         1|
+|36    |MainDesign_xup_dff_0_2         |         1|
+|37    |MainDesign_xup_dff_0_3         |         1|
+|38    |MainDesign_xup_dff_0_4         |         1|
+|39    |MainDesign_xup_dff_5_0         |         1|
+|40    |MainDesign_xup_dff_5_1         |         1|
+|41    |MainDesign_xup_dff_5_2         |         1|
+|42    |MainDesign_xup_dff_5_3         |         1|
+|43    |MainDesign_xup_dff_5_4         |         1|
+|44    |MainDesign_xup_inv_0_0         |         1|
+|45    |MainDesign_xup_inv_0_1         |         1|
+|46    |MainDesign_xup_inv_0_2         |         1|
+|47    |MainDesign_xup_inv_2_0         |         1|
+|48    |MainDesign_xup_inv_3_0         |         1|
+|49    |MainDesign_xup_inv_4_0         |         1|
+|50    |MainDesign_xup_inv_4_1         |         1|
+|51    |MainDesign_xup_or2_0_0         |         1|
+|52    |MainDesign_xup_or2_0_1         |         1|
+|53    |MainDesign_xup_or2_1_0         |         1|
+|54    |MainDesign_xup_or2_2_0         |         1|
+|55    |MainDesign_xup_or2_3_0         |         1|
+|56    |MainDesign_xup_or2_3_1         |         1|
+|57    |MainDesign_xup_or2_6_0         |         1|
+|58    |MainDesign_xup_or2_5_0         |         1|
+|59    |MainDesign_xup_or5_0_0         |         1|
++------+-------------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------------------+------+
+|      |Cell                                   |Count |
++------+---------------------------------------+------+
+|1     |MainDesign_seg7display_0_1_bbox_0      |     1|
+|2     |MainDesign_xlconcat_0_0_bbox_1         |     1|
+|3     |MainDesign_xlconstant_0_0_bbox_2       |     1|
+|4     |MainDesign_xlconstant_0_1_bbox_3       |     1|
+|5     |MainDesign_xlconstant_2_0_bbox_4       |     1|
+|6     |MainDesign_xlconstant_2_1_bbox_5       |     1|
+|7     |MainDesign_xup_2_to_1_mux_0_0_bbox_6   |     1|
+|8     |MainDesign_xup_2_to_1_mux_0_1_bbox_7   |     1|
+|9     |MainDesign_xup_and2_0_0_bbox_8         |     1|
+|10    |MainDesign_xup_and2_0_1_bbox_9         |     1|
+|11    |MainDesign_xup_and2_0_2_bbox_12        |     1|
+|12    |MainDesign_xup_and2_0_3_bbox_13        |     1|
+|13    |MainDesign_xup_and2_10_0_bbox_10       |     1|
+|14    |MainDesign_xup_and2_11_0_bbox_11       |     1|
+|15    |MainDesign_xup_and2_1_0_bbox_17        |     1|
+|16    |MainDesign_xup_and2_2_0_bbox_14        |     1|
+|17    |MainDesign_xup_and2_2_1_bbox_16        |     1|
+|18    |MainDesign_xup_and2_3_0_bbox_15        |     1|
+|19    |MainDesign_xup_and2_8_0_bbox_18        |     1|
+|20    |MainDesign_xup_and2_8_1_bbox_19        |     1|
+|21    |MainDesign_xup_and3_0_0_bbox_20        |     1|
+|22    |MainDesign_xup_and3_1_0_bbox_21        |     1|
+|23    |MainDesign_xup_and3_1_1_bbox_22        |     1|
+|24    |MainDesign_xup_and3_3_0_bbox_23        |     1|
+|25    |MainDesign_xup_and3_3_1_bbox_24        |     1|
+|26    |MainDesign_xup_and3_4_0_bbox_25        |     1|
+|27    |MainDesign_xup_and5_0_0_bbox_26        |     1|
+|28    |MainDesign_xup_clk_divider_0_0_bbox_27 |     1|
+|29    |MainDesign_xup_clk_divider_1_0_bbox_28 |     1|
+|30    |MainDesign_xup_dff_0_0_bbox_29         |     1|
+|31    |MainDesign_xup_dff_0_1_bbox_30         |     1|
+|32    |MainDesign_xup_dff_0_2_bbox_35         |     1|
+|33    |MainDesign_xup_dff_0_3_bbox_36         |     1|
+|34    |MainDesign_xup_dff_0_4_bbox_37         |     1|
+|35    |MainDesign_xup_dff_10_0_bbox_32        |     1|
+|36    |MainDesign_xup_dff_10_1_bbox_33        |     1|
+|37    |MainDesign_xup_dff_10_2_bbox_34        |     1|
+|38    |MainDesign_xup_dff_5_0_bbox_38         |     1|
+|39    |MainDesign_xup_dff_5_1_bbox_39         |     1|
+|40    |MainDesign_xup_dff_5_2_bbox_40         |     1|
+|41    |MainDesign_xup_dff_5_3_bbox_41         |     1|
+|42    |MainDesign_xup_dff_5_4_bbox_42         |     1|
+|43    |MainDesign_xup_dff_5_5_bbox_31         |     1|
+|44    |MainDesign_xup_inv_0_0_bbox_43         |     1|
+|45    |MainDesign_xup_inv_0_1_bbox_44         |     1|
+|46    |MainDesign_xup_inv_0_2_bbox_45         |     1|
+|47    |MainDesign_xup_inv_2_0_bbox_46         |     1|
+|48    |MainDesign_xup_inv_3_0_bbox_47         |     1|
+|49    |MainDesign_xup_inv_4_0_bbox_48         |     1|
+|50    |MainDesign_xup_inv_4_1_bbox_49         |     1|
+|51    |MainDesign_xup_or2_0_0_bbox_50         |     1|
+|52    |MainDesign_xup_or2_0_1_bbox_51         |     1|
+|53    |MainDesign_xup_or2_1_0_bbox_52         |     1|
+|54    |MainDesign_xup_or2_2_0_bbox_53         |     1|
+|55    |MainDesign_xup_or2_3_0_bbox_54         |     1|
+|56    |MainDesign_xup_or2_3_1_bbox_55         |     1|
+|57    |MainDesign_xup_or2_5_0_bbox_57         |     1|
+|58    |MainDesign_xup_or2_6_0_bbox_56         |     1|
+|59    |MainDesign_xup_or5_0_0_bbox_58         |     1|
+|60    |IBUF                                   |     9|
+|61    |OBUF                                   |    18|
++------+---------------------------------------+------+
+
+Report Instance Areas: 
++------+---------------+-----------+------+
+|      |Instance       |Module     |Cells |
++------+---------------+-----------+------+
+|1     |top            |           |   112|
+|2     |  MainDesign_i |MainDesign |    85|
++------+---------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 767.801 ; gain = 158.594
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 767.801 ; gain = 475.988
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+138 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 774.797 ; gain = 494.590
+INFO: [Common 17-1381] The checkpoint 'C:/Users/M/Desktop/projects/Main_Project_v5/Main_Project_v5.runs/synth_1/MainDesign_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MainDesign_wrapper_utilization_synth.rpt -pb MainDesign_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 775.055 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 23 22:00:54 2018...
